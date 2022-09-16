@@ -37,3 +37,5 @@ In this project, I used the Medical Cost Personal Datasets at the [link](https:/
 ## 8) Evaluation of the optimized model using regression model evaluation criteria: R2, MAE, MSE
 
 ## 9)Finding the Confidence Interval Of %95
+
+### Note:Source code is in master branch of the project
