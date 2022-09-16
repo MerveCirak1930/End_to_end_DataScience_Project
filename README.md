@@ -7,21 +7,33 @@ The aim of the project is to estimate the approximate cost of a person's health 
 ## 2) Collecting of data
 In this project, I used the Medical Cost Personal Datasets at the [link](https://www.kaggle.com/datasets/mirichoi0218/insurance).
 ### Importing the required libraries
-### Read the data
+### Loading data set
 
 ## 3) Examination and visualization of data
-### General overview to data
+### Exploratory data analysis
 ### Visualize the data
 
 ## 4) Fitting Data to Machine Learning Models
-### One Hot Encoder
+### Data Preprocessing
+#### Dealing With Categorical Attributes
+1-Label Encoding (0-1)
+2-One Hot Encoder
 ### Features and Labels
+### Feature Scaling
+* Normalization (also called min-max scaling) 
+* Standardization 
 ### Split the data
-### Normalization
 
-## 5) Model Selection - Creating and Training of the Models
-#### Conclusion: When the cross validation results are evaluated, it is seen that the model with the best performance is the XGBRegressor() model.Therefore, we continue by choosing the XGBRegressor() model.
+## 5)  Model Selection - Creating and Training of the Models
+### Model Creation
+### Calculating the cross validation scores of models
+### Model Selection according to Regression Evaluation Metrics
+>> GradientBoostingRegressor has the lowest RMSE (Root Mean Squared Error). Therefore, we will continue with that.
 
 ## 6) Hyper-parameter Optimization with Grid Search
 
-## 7) Evaluation of the optimized model using regression model evaluation criteria: R2, MAE, MSE
+## 7) Prediction
+
+## 8) Evaluation of the optimized model using regression model evaluation criteria: R2, MAE, MSE
+
+## 9)Finding the Confidence Interval Of %95
